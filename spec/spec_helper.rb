@@ -1,5 +1,6 @@
 require 'rubygems'
 require 'spork'
+require 'capybara'
 
 Spork.prefork do
   ENV["RAILS_ENV"] ||= 'test'
